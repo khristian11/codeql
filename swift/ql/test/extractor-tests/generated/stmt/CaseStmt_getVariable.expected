@@ -1,0 +1,2 @@
+| statements.swift:21:5:23:3 | case ... | 0 | statements.swift:21:11:21:11 | error |
+| statements.swift:29:5:31:3 | case ... | 0 | statements.swift:29:11:29:11 | error |

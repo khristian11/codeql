@@ -63,6 +63,10 @@ class Property:
     def is_repeated(self):
         return bool(self.plural)
 
+    @property
+    def is_single(self):
+        return not (self.is_optional or self.is_repeated or self.is_predicate)
+
 
 @dataclass
 class Class:
@@ -113,3 +117,19 @@ class GetParentImplementation:
     template: ClassVar = 'ql_parent'
 
     classes: List[Class] = field(default_factory=list)
+
+
+@dataclass
+class ClassTester:
+    template: ClassVar = 'ql_test_class'
+
+    cls: Class
+    properties: List[Property] = field(default_factory=list)
+
+
+
+@dataclass
+class PropertyTester(ClassTester):
+    template: ClassVar = 'ql_test_property'
+
+    property: Property = None

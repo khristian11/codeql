@@ -1,0 +1,8 @@
+import codeql.swift.elements
+import TestUtils
+
+{{#property}}
+from {{cls.name}} x{{#is_repeated}}, int index{{/is_repeated}}
+where toBeTested(x)
+select x, {{#is_repeated}}index, {{/is_repeated}}x.{{getter}}({{#is_repeated}}index{{/is_repeated}})
+{{/property}}

@@ -1,0 +1,7 @@
+| statements.swift:21:5:23:3 | case ... | 0 | statements.swift:21:11:21:11 | let ... |
+| statements.swift:27:5:29:3 | case ... | 0 | statements.swift:27:11:27:11 | ... is ... |
+| statements.swift:29:5:31:3 | case ... | 0 | statements.swift:29:11:29:11 | let ... |
+| statements.swift:54:4:56:7 | case ... | 0 | statements.swift:54:9:54:9 | 1 |
+| statements.swift:57:4:59:7 | case ... | 0 | statements.swift:57:9:57:9 | 5 |
+| statements.swift:57:4:59:7 | case ... | 1 | statements.swift:57:12:57:12 | 10 |
+| statements.swift:60:4:61:22 | case ... | 0 | statements.swift:60:4:60:4 | _ |

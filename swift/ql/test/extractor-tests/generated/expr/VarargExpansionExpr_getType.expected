@@ -1,0 +1,2 @@
+| expressions.swift:35:7:35:12 | [...] | Any... |
+| expressions.swift:35:7:35:12 | [...] | TBD (VariadicSequenceType) |

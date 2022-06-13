@@ -1,0 +1,6 @@
+import codeql.swift.elements
+import TestUtils
+
+from NilLiteralExpr x
+where toBeTested(x)
+select x, x.getType()

@@ -1,0 +1,6 @@
+import codeql.swift.elements
+import TestUtils
+
+from AccessorDecl x
+where toBeTested(x)
+select x, x.getBody()

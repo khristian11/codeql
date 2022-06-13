@@ -1,0 +1,12 @@
+| ((Int) -> Int, Int) -> Int | 0 | (Int) -> Int |
+| ((Int) -> Int, Int) -> Int | 1 | Int |
+| (C) -> () -> () | 0 | C |
+| (C.Nested) -> () -> () | 0 | C.Nested |
+| (C.Nested.Type) -> () -> C.Nested | 0 | C.Nested.Type |
+| (C.Type) -> () -> C | 0 | C.Type |
+| (Int) -> Int | 0 | Int |
+| (Int) async -> () | 0 | Int |
+| (Int) async throws -> () | 0 | Int |
+| (Int, Int) -> Int | 0 | Int |
+| (Int, Int) -> Int | 1 | Int |
+| (X.Type) -> () -> X | 0 | X.Type |

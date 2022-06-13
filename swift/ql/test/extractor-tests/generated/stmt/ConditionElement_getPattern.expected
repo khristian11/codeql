@@ -1,0 +1,2 @@
+| statements.swift:65:4:65:19 | let ... = ...  | statements.swift:65:9:65:15 | let ... |
+| statements.swift:67:4:67:20 | .some(...) = ...  | statements.swift:67:9:67:16 | .some(...) |

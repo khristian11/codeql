@@ -1,0 +1,14 @@
+| expressions.swift:7:11:7:11 | call to appendLiteral | 0 | : &... |
+| expressions.swift:7:18:7:18 | call to appendInterpolation | 0 | : &... |
+| expressions.swift:7:21:7:21 | call to appendLiteral | 0 | : &... |
+| expressions.swift:15:11:15:11 | call to != | 0 | : Int.Type |
+| expressions.swift:16:11:16:19 | call to ... | 0 | : AnError.Type |
+| expressions.swift:42:14:42:14 | call to + | 0 | : Int.Type |
+| expressions.swift:45:14:45:14 | call to + | 0 | : Int.Type |
+| expressions.swift:47:22:47:22 | call to + | 0 | : Int.Type |
+| expressions.swift:48:15:48:15 | call to + | 0 | : Int.Type |
+| expressions.swift:64:10:64:10 | call to < | 0 | : Int.Type |
+| expressions.swift:79:5:79:11 | call to ... | 0 | : super |
+| expressions.swift:92:14:92:24 | call to passRetained | 0 | : Unmanaged<ToPtr>.Type |
+| expressions.swift:92:14:92:46 | call to toOpaque | 0 | : call to ... |
+| expressions.swift:93:1:93:18 | call to fromOpaque | 0 | : Unmanaged<ToPtr>.Type |

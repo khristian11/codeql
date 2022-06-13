@@ -1,0 +1,2 @@
+| declarations.swift:28:1:28:37 | a_function | 0 | declarations.swift:28:17:28:31 | a_parameter |
+| declarations.swift:50:3:52:3 | +- | 0 | declarations.swift:50:26:50:33 | other |

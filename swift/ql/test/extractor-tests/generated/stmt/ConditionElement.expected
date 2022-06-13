@@ -1,0 +1,5 @@
+| statements.swift:3:8:3:13 | ... call to == ... | not isUnknown |
+| statements.swift:10:17:10:24 | ... call to < ... | not isUnknown |
+| statements.swift:39:9:39:14 | ... call to != ... | not isUnknown |
+| statements.swift:65:4:65:19 | let ... = ...  | not isUnknown |
+| statements.swift:67:4:67:20 | .some(...) = ...  | not isUnknown |

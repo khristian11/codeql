@@ -1,0 +1,2 @@
+| statements.swift:4:9:4:9 | break | statements.swift:2:3:8:3 | for ... in ... { ... } |
+| statements.swift:59:7:59:7 | break | statements.swift:53:1:62:1 | switch index { ... } |

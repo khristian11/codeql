@@ -1,0 +1,1 @@
+| statements.swift:10:3:12:3 | while ... { ... } | not isUnknown | statements.swift:10:17:10:24 | StmtCondition | statements.swift:10:26:12:3 | { ... } |

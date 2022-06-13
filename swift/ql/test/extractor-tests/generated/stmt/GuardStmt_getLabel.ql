@@ -1,0 +1,6 @@
+import codeql.swift.elements
+import TestUtils
+
+from GuardStmt x
+where toBeTested(x)
+select x, x.getLabel()

@@ -1,0 +1,11 @@
+| ((Int) -> Int, Int) -> Int | not isUnknown | ((Int) -> Int, Int) -> Int | ((Int) -> Int, Int) -> Int | Int | not isThrowing | not isAsync |
+| () throws -> Int | not isUnknown | () throws -> Int | () throws -> Int | Int | isThrowing | not isAsync |
+| (C) -> () -> () | not isUnknown | (C) -> () -> () | (C) -> () -> () | () -> () | not isThrowing | not isAsync |
+| (C.Nested) -> () -> () | not isUnknown | (C.Nested) -> () -> () | (C.Nested) -> () -> () | () -> () | not isThrowing | not isAsync |
+| (C.Nested.Type) -> () -> C.Nested | not isUnknown | (C.Nested.Type) -> () -> C.Nested | (C.Nested.Type) -> () -> C.Nested | () -> C.Nested | not isThrowing | not isAsync |
+| (C.Type) -> () -> C | not isUnknown | (C.Type) -> () -> C | (C.Type) -> () -> C | () -> C | not isThrowing | not isAsync |
+| (Int) -> Int | not isUnknown | (Int) -> Int | (Int) -> Int | Int | not isThrowing | not isAsync |
+| (Int) async -> () | not isUnknown | (Int) async -> () | (Int) async -> () | () | not isThrowing | isAsync |
+| (Int) async throws -> () | not isUnknown | (Int) async throws -> () | (Int) async throws -> () | () | isThrowing | isAsync |
+| (Int, Int) -> Int | not isUnknown | (Int, Int) -> Int | (Int, Int) -> Int | Int | not isThrowing | not isAsync |
+| (X.Type) -> () -> X | not isUnknown | (X.Type) -> () -> X | (X.Type) -> () -> X | () -> X | not isThrowing | not isAsync |

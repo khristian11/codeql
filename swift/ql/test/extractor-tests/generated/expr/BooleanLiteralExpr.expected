@@ -1,0 +1,2 @@
+| expressions.swift:3:10:3:10 | true | not isUnknown | true |
+| expressions.swift:4:10:4:10 | false | not isUnknown | false |

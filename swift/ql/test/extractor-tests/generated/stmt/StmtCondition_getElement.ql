@@ -1,0 +1,6 @@
+import codeql.swift.elements
+import TestUtils
+
+from StmtCondition x, int index
+where toBeTested(x)
+select x, index, x.getElement(index)

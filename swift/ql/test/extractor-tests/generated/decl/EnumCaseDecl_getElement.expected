@@ -1,0 +1,8 @@
+| declarations.swift:12:5:12:18 | case ... | 0 | declarations.swift:12:10:12:10 | value1 |
+| declarations.swift:12:5:12:18 | case ... | 1 | declarations.swift:12:18:12:18 | value2 |
+| declarations.swift:13:5:13:26 | case ... | 0 | declarations.swift:13:10:13:10 | value3 |
+| declarations.swift:13:5:13:26 | case ... | 1 | declarations.swift:13:18:13:18 | value4 |
+| declarations.swift:13:5:13:26 | case ... | 2 | declarations.swift:13:26:13:26 | value5 |
+| declarations.swift:17:5:17:22 | case ... | 0 | declarations.swift:17:10:17:22 | nodata1 |
+| declarations.swift:18:5:18:21 | case ... | 0 | declarations.swift:18:10:18:21 | intdata |
+| declarations.swift:19:5:19:35 | case ... | 0 | declarations.swift:19:10:19:35 | tuple |

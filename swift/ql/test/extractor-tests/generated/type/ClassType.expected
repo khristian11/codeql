@@ -1,0 +1,2 @@
+| C | not isUnknown | C | C | types.swift:9:1:11:1 | C |
+| C.Nested | not isUnknown | C.Nested | C.Nested | types.swift:10:1:10:15 | Nested |

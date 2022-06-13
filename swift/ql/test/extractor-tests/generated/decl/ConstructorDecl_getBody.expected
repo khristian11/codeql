@@ -1,0 +1,4 @@
+| declarations.swift:1:8:1:8 | init | declarations.swift:1:8:1:8 | { ... } |
+| declarations.swift:9:7:9:7 | init | declarations.swift:9:7:9:7 | { ... } |
+| declarations.swift:42:3:44:3 | init | declarations.swift:42:10:44:3 | { ... } |
+| declarations.swift:68:25:68:25 | init | declarations.swift:68:25:68:25 | { ... } |

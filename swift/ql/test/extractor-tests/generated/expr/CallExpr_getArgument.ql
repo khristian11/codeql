@@ -1,0 +1,6 @@
+import codeql.swift.elements
+import TestUtils
+
+from CallExpr x, int index
+where toBeTested(x)
+select x, index, x.getArgument(index)

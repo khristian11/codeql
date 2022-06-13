@@ -1,0 +1,5 @@
+| expressions.swift:7:11:7:11 | &... | not isUnknown | expressions.swift:7:11:7:11 | $interpolation |
+| expressions.swift:7:18:7:18 | &... | not isUnknown | expressions.swift:7:18:7:18 | $interpolation |
+| expressions.swift:7:21:7:21 | &... | not isUnknown | expressions.swift:7:21:7:21 | $interpolation |
+| expressions.swift:59:25:59:26 | &... | not isUnknown | expressions.swift:59:26:59:26 | myNumber |
+| expressions.swift:137:3:137:3 | &... | not isUnknown | expressions.swift:137:3:137:3 | hp |

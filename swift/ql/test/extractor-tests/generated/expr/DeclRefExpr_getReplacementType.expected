@@ -1,0 +1,7 @@
+| expressions.swift:7:18:7:18 | appendInterpolation | 0 | Int |
+| expressions.swift:15:11:15:11 | != | 0 | Int |
+| expressions.swift:60:1:60:1 | withUnsafePointer | 0 | Int |
+| expressions.swift:60:1:60:1 | withUnsafePointer | 1 | () |
+| expressions.swift:92:24:92:24 | passRetained | 0 | ToPtr |
+| expressions.swift:92:46:92:46 | toOpaque | 0 | ToPtr |
+| expressions.swift:93:18:93:18 | fromOpaque | 0 | ToPtr |

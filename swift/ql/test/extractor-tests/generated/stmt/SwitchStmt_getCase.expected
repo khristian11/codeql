@@ -1,0 +1,3 @@
+| statements.swift:53:1:62:1 | switch index { ... } | 0 | statements.swift:54:4:56:7 | case ... |
+| statements.swift:53:1:62:1 | switch index { ... } | 1 | statements.swift:57:4:59:7 | case ... |
+| statements.swift:53:1:62:1 | switch index { ... } | 2 | statements.swift:60:4:61:22 | case ... |

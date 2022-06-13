@@ -1,0 +1,6 @@
+| declarations.swift:1:8:1:8 | init | not isUnknown | (Foo.Type) -> () -> Foo | (unnamed function decl) |
+| declarations.swift:1:8:1:8 | init | not isUnknown | (Foo.Type) -> (Int) -> Foo | (unnamed function decl) |
+| declarations.swift:9:7:9:7 | init | not isUnknown | (Bar.Type) -> () -> Bar | (unnamed function decl) |
+| declarations.swift:42:3:44:3 | init | not isUnknown | (Baz.Type) -> () -> Baz | (unnamed function decl) |
+| declarations.swift:68:25:68:25 | init | not isUnknown | (ZeroWrapper.Type) -> () -> ZeroWrapper | (unnamed function decl) |
+| declarations.swift:81:8:81:8 | init | not isUnknown | (HasPropertyAndObserver.Type) -> (Int, Int, Int, Int, Int, Int) -> HasPropertyAndObserver | (unnamed function decl) |

@@ -1,0 +1,2 @@
+| declarations.swift:9:1:9:34 | Bar | not isUnknown | Bar.Type | Bar | Bar |
+| declarations.swift:40:1:53:1 | Baz | not isUnknown | Baz.Type | Baz | Baz |

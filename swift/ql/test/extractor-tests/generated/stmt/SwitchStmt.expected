@@ -1,0 +1,1 @@
+| statements.swift:53:1:62:1 | switch index { ... } | not isUnknown | statements.swift:53:8:53:8 | index |

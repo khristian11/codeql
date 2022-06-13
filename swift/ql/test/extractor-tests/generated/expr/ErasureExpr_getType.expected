@@ -1,0 +1,8 @@
+| expressions.swift:16:11:16:19 | (Error) ... | Error |
+| expressions.swift:16:11:16:19 | (Error) ... | TBD (ExistentialType) |
+| expressions.swift:16:11:16:19 | (TBD (ExistentialType)) ... | Error |
+| expressions.swift:16:11:16:19 | (TBD (ExistentialType)) ... | TBD (ExistentialType) |
+| expressions.swift:35:7:35:12 | (Any) ... | Any |
+| expressions.swift:35:7:35:12 | (Any) ... | TBD (ProtocolCompositionType) |
+| expressions.swift:35:7:35:12 | (TBD (ProtocolCompositionType)) ... | Any |
+| expressions.swift:35:7:35:12 | (TBD (ProtocolCompositionType)) ... | TBD (ProtocolCompositionType) |

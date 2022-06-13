@@ -1,0 +1,4 @@
+| (Int) async -> () | 0 | x |
+| (Int) async throws -> () | 0 | x |
+| (Int, Int) -> Int | 0 | x |
+| (Int, Int) -> Int | 1 | y |

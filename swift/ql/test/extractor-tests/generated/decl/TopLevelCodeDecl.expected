@@ -1,0 +1,3 @@
+| declarations.swift:30:1:30:18 | { ... } | not isUnknown | declarations.swift:30:1:30:18 | { ... } |
+| declarations.swift:31:1:36:1 | { ... } | not isUnknown | declarations.swift:31:1:36:1 | { ... } |
+| declarations.swift:38:1:38:33 | { ... } | not isUnknown | declarations.swift:38:1:38:33 | { ... } |

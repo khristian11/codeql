@@ -1,0 +1,11 @@
+import codeql.swift.elements
+import TestUtils
+
+from {{cls.name}} x{{#properties}}{{#is_predicate}}, string {{getter}}{{/is_predicate}}{{/properties}}
+where toBeTested(x)
+{{#properties}}
+{{#is_predicate}}
+and if x.{{getter}}() then {{getter}} = "{{getter}}" else {{getter}} = "not {{getter}}"
+{{/is_predicate}}
+{{/properties}}
+select x{{#properties}}{{#is_single}}, x.{{getter}}(){{/is_single}}{{#is_predicate}}, {{getter}}{{/is_predicate}}{{/properties}}

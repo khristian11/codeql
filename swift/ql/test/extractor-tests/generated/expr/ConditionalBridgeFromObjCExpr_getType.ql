@@ -1,0 +1,6 @@
+import codeql.swift.elements
+import TestUtils
+
+from ConditionalBridgeFromObjCExpr x
+where toBeTested(x)
+select x, x.getType()

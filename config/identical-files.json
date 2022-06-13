@@ -569,19 +569,19 @@
     "ql/ql/src/codeql_ql/style/TypoDatabase.qll"
   ],
   "Swift declarations test file": [
-    "swift/ql/test/extractor-tests/declarations/declarations.swift",
+    "swift/ql/test/extractor-tests/generated/decl/declarations.swift",
     "swift/ql/test/library-tests/parent/declarations.swift"
   ],
   "Swift statements test file": [
-    "swift/ql/test/extractor-tests/statements/statements.swift",
+    "swift/ql/test/extractor-tests/generated/stmt/statements.swift",
     "swift/ql/test/library-tests/parent/statements.swift"
   ],
   "Swift expressions test file": [
-    "swift/ql/test/extractor-tests/expressions/expressions.swift",
+    "swift/ql/test/extractor-tests/generated/expr/expressions.swift",
     "swift/ql/test/library-tests/parent/expressions.swift"
   ],
   "Swift patterns test file": [
-    "swift/ql/test/extractor-tests/patterns/patterns.swift",
+    "swift/ql/test/extractor-tests/generated/pattern/patterns.swift",
     "swift/ql/test/library-tests/parent/patterns.swift"
   ]
 }

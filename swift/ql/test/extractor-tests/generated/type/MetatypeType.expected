@@ -1,0 +1,3 @@
+| C.Nested.Type | not isUnknown | C.Nested.Type | C.Nested.Type |
+| C.Type | not isUnknown | C.Type | C.Type |
+| X.Type | not isUnknown | X.Type | X.Type |

@@ -3,6 +3,7 @@
 import logging
 import pathlib
 import subprocess
+import typing
 
 import inflection
 
@@ -88,16 +89,29 @@ def format(codeql, files):
         log.debug(line.strip())
 
 
+def _get_all_properties(cls: ql.Class, lookup: typing.Dict[str, ql.Class]):
+    for b in cls.bases:
+        for p in _get_all_properties(lookup[b], lookup):
+            yield p
+    # skip Locatable::getLocation, as its testing is builtin in codeql
+    if cls.name != "Locatable":
+        for p in cls.properties:
+            yield p
+
+
 def generate(opts, renderer):
     input = opts.schema
     out = opts.ql_output
     stub_out = opts.ql_stub_output
+    test_out = opts.ql_test_output
     existing = {q for q in out.rglob("*.qll")}
     existing |= {q for q in stub_out.rglob("*.qll") if is_generated(q)}
+    existing |= {q for q in test_out.rglob("*.ql")}
 
     data = schema.load(input)
 
     classes = [get_ql_class(cls) for cls in data.classes]
+    lookup = {cls.name: cls for cls in classes}
     classes.sort(key=lambda cls: cls.name)
     imports = {}
 
@@ -105,10 +119,10 @@ def generate(opts, renderer):
         imports[c.name] = get_import(stub_out / c.path, opts.swift_dir)
 
     for c in classes:
-        qll = (out / c.path).with_suffix(".qll")
+        qll = out / c.path.with_suffix(".qll")
         c.imports = [imports[t] for t in get_classes_used_by(c)]
         renderer.render(c, qll)
-        stub_file = (stub_out / c.path).with_suffix(".qll")
+        stub_file = stub_out / c.path.with_suffix(".qll")
         if not stub_file.is_file() or is_generated(stub_file):
             stub = ql.Stub(name=c.name, base_import=get_import(qll, opts.swift_dir))
             renderer.render(stub, stub_file)
@@ -119,6 +133,18 @@ def generate(opts, renderer):
     renderer.render(all_imports, include_file)
 
     renderer.render(ql.GetParentImplementation(classes), out / 'GetImmediateParent.qll')
+
+    for c in classes:
+        if not c.final:
+            continue
+        test_query = test_out / c.path.with_suffix(".ql")
+        properties = {id(p): p for p in _get_all_properties(c, lookup) if p.is_single or p.is_predicate}
+        renderer.render(ql.ClassTester(cls=c, properties=list(properties.values())), test_query)
+
+        for p in _get_all_properties(c, lookup):
+            if not (p.is_single or p.is_predicate):
+                test_query = test_out / c.path.with_name(f"{c.name}_{p.getter}.ql")
+                renderer.render(ql.PropertyTester(cls=c, property=p), test_query)
 
     renderer.cleanup(existing)
     if opts.ql_format:

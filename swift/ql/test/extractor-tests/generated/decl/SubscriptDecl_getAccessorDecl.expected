@@ -1,0 +1,4 @@
+| declarations.swift:104:3:109:3 | subscript ... | 0 | declarations.swift:105:5:107:5 | get |
+| declarations.swift:104:3:109:3 | subscript ... | 1 | declarations.swift:108:5:108:11 | set |
+| declarations.swift:104:3:109:3 | subscript ... | 2 | declarations.swift:104:3:104:3 | (unnamed function decl) |
+| declarations.swift:111:3:113:3 | subscript ... | 0 | declarations.swift:111:37:113:3 | get |

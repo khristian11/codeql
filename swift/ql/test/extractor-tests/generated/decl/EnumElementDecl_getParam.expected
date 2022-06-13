@@ -1,0 +1,5 @@
+| declarations.swift:17:10:17:22 | nodata1 | 0 | declarations.swift:17:18:17:18 | _ |
+| declarations.swift:18:10:18:21 | intdata | 0 | declarations.swift:18:18:18:18 | _ |
+| declarations.swift:19:10:19:35 | tuple | 0 | declarations.swift:19:16:19:16 | _ |
+| declarations.swift:19:10:19:35 | tuple | 1 | declarations.swift:19:21:19:21 | _ |
+| declarations.swift:19:10:19:35 | tuple | 2 | declarations.swift:19:29:19:29 | _ |

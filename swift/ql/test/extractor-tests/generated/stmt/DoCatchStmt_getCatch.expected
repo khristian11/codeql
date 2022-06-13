@@ -1,0 +1,3 @@
+| statements.swift:19:3:23:3 | do { ... } catch { ... } | 0 | statements.swift:21:5:23:3 | case ... |
+| statements.swift:25:3:31:3 | do { ... } catch { ... } | 0 | statements.swift:27:5:29:3 | case ... |
+| statements.swift:25:3:31:3 | do { ... } catch { ... } | 1 | statements.swift:29:5:31:3 | case ... |
