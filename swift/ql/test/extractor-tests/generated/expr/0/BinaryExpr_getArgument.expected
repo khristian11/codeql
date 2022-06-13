@@ -1,0 +1,12 @@
+| expressions.swift:17:9:17:14 | ... call to != ... | 0 | : x |
+| expressions.swift:17:9:17:14 | ... call to != ... | 1 | : 0 |
+| expressions.swift:44:12:44:16 | ... call to + ... | 0 | : x |
+| expressions.swift:44:12:44:16 | ... call to + ... | 1 | : y |
+| expressions.swift:47:12:47:16 | ... call to + ... | 0 | : x |
+| expressions.swift:47:12:47:16 | ... call to + ... | 1 | : y |
+| expressions.swift:49:19:49:24 | ... call to + ... | 0 | : $0 |
+| expressions.swift:49:19:49:24 | ... call to + ... | 1 | : $1 |
+| expressions.swift:50:12:50:17 | ... call to + ... | 0 | : $0 |
+| expressions.swift:50:12:50:17 | ... call to + ... | 1 | : $1 |
+| expressions.swift:66:8:66:12 | ... call to < ... | 0 | : x |
+| expressions.swift:66:8:66:12 | ... call to < ... | 1 | : 0 |

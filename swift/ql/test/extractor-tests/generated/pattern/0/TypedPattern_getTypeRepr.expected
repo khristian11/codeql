@@ -1,0 +1,5 @@
+| patterns.swift:5:9:5:19 | ... as ... | patterns.swift:5:19:5:19 | TBD (SimpleIdentTypeRepr) |
+| patterns.swift:26:9:26:12 | ... as ... | patterns.swift:26:12:26:12 | TBD (SimpleIdentTypeRepr) |
+| patterns.swift:33:9:33:15 | ... as ... | patterns.swift:33:12:33:15 | ...? |
+| patterns.swift:33:9:33:15 | ... as ... | patterns.swift:33:12:33:15 | TBD (OptionalTypeRepr) |
+| patterns.swift:40:9:40:12 | ... as ... | patterns.swift:40:12:40:12 | TBD (CompositionTypeRepr) |

@@ -1,0 +1,6 @@
+| expressions.swift:17:9:17:14 | ... call to != ... | Bool |
+| expressions.swift:44:12:44:16 | ... call to + ... | Int |
+| expressions.swift:47:12:47:16 | ... call to + ... | Int |
+| expressions.swift:49:19:49:24 | ... call to + ... | Int |
+| expressions.swift:50:12:50:17 | ... call to + ... | Int |
+| expressions.swift:66:8:66:12 | ... call to < ... | Bool |

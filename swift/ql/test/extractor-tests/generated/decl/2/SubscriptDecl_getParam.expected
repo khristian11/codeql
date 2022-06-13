@@ -1,0 +1,3 @@
+| declarations.swift:106:3:111:3 | subscript ... | 0 | declarations.swift:106:13:106:16 | x |
+| declarations.swift:113:3:115:3 | subscript ... | 0 | declarations.swift:113:13:113:16 | x |
+| declarations.swift:113:3:115:3 | subscript ... | 1 | declarations.swift:113:21:113:25 | y |

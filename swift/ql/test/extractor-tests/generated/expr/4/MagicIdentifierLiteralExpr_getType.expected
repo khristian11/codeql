@@ -1,0 +1,5 @@
+| expressions.swift:7:9:7:9 | #... | String |
+| expressions.swift:79:7:79:7 | #... | StaticString |
+| expressions.swift:79:7:79:7 | #... | StaticString |
+| expressions.swift:79:7:79:7 | #... | UInt |
+| expressions.swift:79:7:79:7 | #... | UInt |

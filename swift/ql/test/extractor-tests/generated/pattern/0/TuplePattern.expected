@@ -1,0 +1,3 @@
+| patterns.swift:6:9:6:17 | (...) | not isUnknown |
+| patterns.swift:14:14:14:21 | (...) | not isUnknown |
+| patterns.swift:30:18:30:23 | (...) | not isUnknown |

@@ -1,0 +1,49 @@
+| declarations.swift:4:7:4:7 | (unnamed function decl) | declarations.swift:4:7:4:7 | { ... } |
+| declarations.swift:4:7:4:7 | get | declarations.swift:4:7:4:7 | { ... } |
+| declarations.swift:4:7:4:7 | set | declarations.swift:4:7:4:7 | { ... } |
+| declarations.swift:5:7:5:7 | (unnamed function decl) | declarations.swift:5:7:5:7 | { ... } |
+| declarations.swift:6:5:6:24 | get | declarations.swift:6:9:6:24 | { ... } |
+| declarations.swift:7:5:7:38 | set | declarations.swift:7:19:7:38 | { ... } |
+| declarations.swift:11:17:11:17 | (unnamed function decl) | declarations.swift:11:17:11:17 | { ... } |
+| declarations.swift:11:17:11:17 | get | declarations.swift:11:17:11:17 | { ... } |
+| declarations.swift:11:17:11:17 | set | declarations.swift:11:17:11:17 | { ... } |
+| declarations.swift:34:3:36:3 | get | declarations.swift:34:7:36:3 | { ... } |
+| declarations.swift:37:3:37:18 | set | declarations.swift:37:17:37:18 | { ... } |
+| declarations.swift:43:7:43:7 | (unnamed function decl) | declarations.swift:43:7:43:7 | { ... } |
+| declarations.swift:43:7:43:7 | get | declarations.swift:43:7:43:7 | { ... } |
+| declarations.swift:43:7:43:7 | set | declarations.swift:43:7:43:7 | { ... } |
+| declarations.swift:72:5:74:5 | get | declarations.swift:72:9:74:5 | { ... } |
+| declarations.swift:79:20:79:20 | get | declarations.swift:79:20:79:20 | { ... } |
+| declarations.swift:84:7:84:7 | (unnamed function decl) | declarations.swift:84:7:84:7 | { ... } |
+| declarations.swift:85:5:85:11 | set | declarations.swift:85:9:85:11 | { ... } |
+| declarations.swift:86:5:88:5 | get | declarations.swift:86:9:88:5 | { ... } |
+| declarations.swift:93:27:95:3 | get | declarations.swift:93:27:95:3 | { ... } |
+| declarations.swift:99:5:101:5 | get | declarations.swift:99:9:101:5 | { ... } |
+| declarations.swift:104:7:104:7 | (unnamed function decl) | declarations.swift:104:7:104:7 | { ... } |
+| declarations.swift:104:7:104:7 | get | declarations.swift:104:7:104:7 | { ... } |
+| declarations.swift:104:7:104:7 | set | declarations.swift:104:7:104:7 | { ... } |
+| declarations.swift:106:3:106:3 | (unnamed function decl) | declarations.swift:106:3:106:3 | { ... } |
+| declarations.swift:107:5:109:5 | get | declarations.swift:107:9:109:5 | { ... } |
+| declarations.swift:110:5:110:11 | set | declarations.swift:110:9:110:11 | { ... } |
+| declarations.swift:113:37:115:3 | get | declarations.swift:113:37:115:3 | { ... } |
+| declarations.swift:117:7:117:7 | (unnamed function decl) | declarations.swift:117:7:117:7 | { ... } |
+| declarations.swift:117:7:117:7 | get | declarations.swift:117:7:117:7 | { ... } |
+| declarations.swift:117:7:117:7 | set | declarations.swift:117:7:117:7 | { ... } |
+| declarations.swift:118:5:118:25 | willSet | declarations.swift:118:23:118:25 | { ... } |
+| declarations.swift:121:7:121:7 | (unnamed function decl) | declarations.swift:121:7:121:7 | { ... } |
+| declarations.swift:121:7:121:7 | get | declarations.swift:121:7:121:7 | { ... } |
+| declarations.swift:121:7:121:7 | set | declarations.swift:121:7:121:7 | { ... } |
+| declarations.swift:122:5:122:15 | willSet | declarations.swift:122:13:122:15 | { ... } |
+| declarations.swift:125:7:125:7 | (unnamed function decl) | declarations.swift:125:7:125:7 | { ... } |
+| declarations.swift:125:7:125:7 | get | declarations.swift:125:7:125:7 | { ... } |
+| declarations.swift:125:7:125:7 | set | declarations.swift:125:7:125:7 | { ... } |
+| declarations.swift:126:5:126:24 | didSet | declarations.swift:126:22:126:24 | { ... } |
+| declarations.swift:129:7:129:7 | (unnamed function decl) | declarations.swift:129:7:129:7 | { ... } |
+| declarations.swift:129:7:129:7 | get | declarations.swift:129:7:129:7 | { ... } |
+| declarations.swift:129:7:129:7 | set | declarations.swift:129:7:129:7 | { ... } |
+| declarations.swift:130:5:130:14 | didSet | declarations.swift:130:12:130:14 | { ... } |
+| declarations.swift:133:7:133:7 | (unnamed function decl) | declarations.swift:133:7:133:7 | { ... } |
+| declarations.swift:133:7:133:7 | get | declarations.swift:133:7:133:7 | { ... } |
+| declarations.swift:133:7:133:7 | set | declarations.swift:133:7:133:7 | { ... } |
+| declarations.swift:134:5:134:15 | willSet | declarations.swift:134:13:134:15 | { ... } |
+| declarations.swift:136:5:136:14 | didSet | declarations.swift:136:12:136:14 | { ... } |

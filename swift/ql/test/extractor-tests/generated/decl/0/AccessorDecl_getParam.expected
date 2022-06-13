@@ -1,0 +1,23 @@
+| declarations.swift:4:7:4:7 | set | 0 | declarations.swift:4:7:4:7 | value |
+| declarations.swift:7:5:7:38 | set | 0 | declarations.swift:7:9:7:9 | newValue |
+| declarations.swift:11:17:11:17 | set | 0 | declarations.swift:11:17:11:17 | value |
+| declarations.swift:25:35:25:35 | set | 0 | declarations.swift:25:35:25:35 | newValue |
+| declarations.swift:37:3:37:18 | set | 0 | declarations.swift:37:7:37:7 | newValue |
+| declarations.swift:43:7:43:7 | set | 0 | declarations.swift:43:7:43:7 | value |
+| declarations.swift:85:5:85:11 | set | 0 | declarations.swift:85:5:85:5 | newValue |
+| declarations.swift:104:7:104:7 | set | 0 | declarations.swift:104:7:104:7 | value |
+| declarations.swift:106:3:106:3 | (unnamed function decl) | 0 | file://:0:0:0:0 | x |
+| declarations.swift:107:5:109:5 | get | 0 | declarations.swift:106:13:106:13 | x |
+| declarations.swift:110:5:110:11 | set | 0 | declarations.swift:110:5:110:5 | newValue |
+| declarations.swift:110:5:110:11 | set | 1 | declarations.swift:106:13:106:13 | x |
+| declarations.swift:113:37:115:3 | get | 0 | declarations.swift:113:13:113:13 | x |
+| declarations.swift:113:37:115:3 | get | 1 | declarations.swift:113:21:113:21 | y |
+| declarations.swift:117:7:117:7 | set | 0 | declarations.swift:117:7:117:7 | value |
+| declarations.swift:118:5:118:25 | willSet | 0 | declarations.swift:118:13:118:13 | newValue |
+| declarations.swift:121:7:121:7 | set | 0 | declarations.swift:121:7:121:7 | value |
+| declarations.swift:122:5:122:15 | willSet | 0 | declarations.swift:122:5:122:5 | newValue |
+| declarations.swift:125:7:125:7 | set | 0 | declarations.swift:125:7:125:7 | value |
+| declarations.swift:126:5:126:24 | didSet | 0 | declarations.swift:126:12:126:12 | oldValue |
+| declarations.swift:129:7:129:7 | set | 0 | declarations.swift:129:7:129:7 | value |
+| declarations.swift:133:7:133:7 | set | 0 | declarations.swift:133:7:133:7 | value |
+| declarations.swift:134:5:134:15 | willSet | 0 | declarations.swift:134:5:134:5 | newValue |

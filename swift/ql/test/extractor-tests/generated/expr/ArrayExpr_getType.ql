@@ -1,6 +1,0 @@
-import codeql.swift.elements
-import TestUtils
-
-from ArrayExpr x
-where toBeTested(x)
-select x, x.getType()

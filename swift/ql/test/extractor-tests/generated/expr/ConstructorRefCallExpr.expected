@@ -1,3 +1,0 @@
-| expressions.swift:27:13:27:13 | call to ... | not isUnknown | expressions.swift:27:13:27:13 | init | expressions.swift:27:13:27:13 | Klass.Type |
-| expressions.swift:83:15:83:15 | call to ... | not isUnknown | expressions.swift:83:15:83:15 | init | expressions.swift:83:15:83:15 | Derived.Type |
-| expressions.swift:92:37:92:37 | call to ... | not isUnknown | expressions.swift:92:37:92:37 | init | expressions.swift:92:37:92:37 | ToPtr.Type |

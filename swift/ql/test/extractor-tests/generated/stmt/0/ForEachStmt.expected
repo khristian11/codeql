@@ -1,0 +1,2 @@
+| statements.swift:4:3:10:3 | for ... in ... { ... } | not isUnknown | statements.swift:4:15:4:15 | i | statements.swift:4:20:4:24 | ... call to ... ... | statements.swift:4:26:10:3 | { ... } |
+| statements.swift:73:1:74:1 | for ... in ... where ... { ... } | not isUnknown | statements.swift:73:5:73:5 | number | statements.swift:73:15:73:15 | numbers | statements.swift:73:45:74:1 | { ... } |

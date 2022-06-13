@@ -1,0 +1,8 @@
+| expressions.swift:8:9:8:9 | hello world | not isUnknown | hello world |
+| expressions.swift:9:10:9:10 | hello  | not isUnknown | hello  |
+| expressions.swift:9:21:9:21 |  | not isUnknown |  |
+| expressions.swift:31:10:31:10 | 1 | not isUnknown | 1 |
+| expressions.swift:31:16:31:16 | 2 | not isUnknown | 2 |
+| expressions.swift:37:9:37:9 | 1 | not isUnknown | 1 |
+| expressions.swift:79:7:79:7 | expressions.Derived | not isUnknown | expressions.Derived |
+| expressions.swift:90:3:90:3 | a | not isUnknown | a |

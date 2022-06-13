@@ -1,2 +1,0 @@
-| declarations.swift:9:7:9:7 | deinit | declarations.swift:9:7:9:7 | { ... } |
-| declarations.swift:46:3:48:3 | deinit | declarations.swift:46:10:48:3 | { ... } |

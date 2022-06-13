@@ -1,0 +1,53 @@
+| declarations.swift:4:7:4:7 | (unnamed function decl) | not isUnknown | (inout Foo) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:4:7:4:7 | get | not isUnknown | (Foo) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:4:7:4:7 | set | not isUnknown | (inout Foo) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:5:7:5:7 | (unnamed function decl) | not isUnknown | (inout Foo) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:6:5:6:24 | get | not isUnknown | (Foo) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:7:5:7:38 | set | not isUnknown | (inout Foo) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:11:17:11:17 | (unnamed function decl) | not isUnknown | (Bar) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:11:17:11:17 | get | not isUnknown | (Bar) -> () -> Double | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:11:17:11:17 | set | not isUnknown | (Bar) -> (Double) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:25:9:25:9 | (unnamed function decl) | not isUnknown | <Self where Self : MyProtocol> (inout Self) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:25:31:25:31 | get | not isUnknown | <Self where Self : MyProtocol> (Self) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:25:35:25:35 | set | not isUnknown | <Self where Self : MyProtocol> (inout Self) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:26:40:26:40 | get | not isUnknown | <Self where Self : MyProtocol> (Self) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:34:3:36:3 | get | not isUnknown | () -> String | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:37:3:37:18 | set | not isUnknown | (String) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:43:7:43:7 | (unnamed function decl) | not isUnknown | (Baz) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:43:7:43:7 | get | not isUnknown | (Baz) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:43:7:43:7 | set | not isUnknown | (Baz) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:72:5:74:5 | get | not isUnknown | (ZeroWrapper) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:79:20:79:20 | get | not isUnknown | () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:84:7:84:7 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:85:5:85:11 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:86:5:88:5 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:93:27:95:3 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:99:5:101:5 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:104:7:104:7 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:104:7:104:7 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:104:7:104:7 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:106:3:106:3 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:107:5:109:5 | get | not isUnknown | (HasPropertyAndObserver) -> (Int) -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:110:5:110:11 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int, Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:113:37:115:3 | get | not isUnknown | (HasPropertyAndObserver) -> (Int, Int) -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:117:7:117:7 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:117:7:117:7 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:117:7:117:7 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:118:5:118:25 | willSet | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | not isSetter | isWillSet | not isDidSet |
+| declarations.swift:121:7:121:7 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:121:7:121:7 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:121:7:121:7 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:122:5:122:15 | willSet | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | not isSetter | isWillSet | not isDidSet |
+| declarations.swift:125:7:125:7 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:125:7:125:7 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:125:7:125:7 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:126:5:126:24 | didSet | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | isDidSet |
+| declarations.swift:129:7:129:7 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:129:7:129:7 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:129:7:129:7 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:130:5:130:14 | didSet | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | isDidSet |
+| declarations.swift:133:7:133:7 | (unnamed function decl) | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:133:7:133:7 | get | not isUnknown | (HasPropertyAndObserver) -> () -> Int | (unnamed function decl) | isGetter | not isSetter | not isWillSet | not isDidSet |
+| declarations.swift:133:7:133:7 | set | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | isSetter | not isWillSet | not isDidSet |
+| declarations.swift:134:5:134:15 | willSet | not isUnknown | (inout HasPropertyAndObserver) -> (Int) -> () | (unnamed function decl) | not isGetter | not isSetter | isWillSet | not isDidSet |
+| declarations.swift:136:5:136:14 | didSet | not isUnknown | (inout HasPropertyAndObserver) -> () -> () | (unnamed function decl) | not isGetter | not isSetter | not isWillSet | isDidSet |

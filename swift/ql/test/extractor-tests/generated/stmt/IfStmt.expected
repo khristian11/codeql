@@ -1,3 +1,0 @@
-| statements.swift:3:5:7:5 | if ... then { ... } else { ... } | not isUnknown | statements.swift:3:8:3:13 | StmtCondition | statements.swift:3:15:5:5 | { ... } |
-| statements.swift:65:1:66:1 | if ... then { ... } | not isUnknown | statements.swift:65:4:65:19 | StmtCondition | statements.swift:65:21:66:1 | { ... } |
-| statements.swift:67:1:68:1 | if ... then { ... } | not isUnknown | statements.swift:67:4:67:20 | StmtCondition | statements.swift:67:22:68:1 | { ... } |

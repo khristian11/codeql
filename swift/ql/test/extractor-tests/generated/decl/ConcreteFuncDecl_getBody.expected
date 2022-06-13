@@ -1,3 +1,0 @@
-| declarations.swift:28:1:28:37 | a_function | declarations.swift:28:36:28:37 | { ... } |
-| declarations.swift:50:3:52:3 | +- | declarations.swift:50:45:52:3 | { ... } |
-| declarations.swift:76:1:79:1 | foo | declarations.swift:76:19:79:1 | { ... } |

@@ -1,0 +1,2 @@
+| declarations.swift:13:1:16:1 | EnumValues | not isUnknown | EnumValues.Type | EnumValues | EnumValues |
+| declarations.swift:18:1:22:1 | EnumWithParams | not isUnknown | EnumWithParams.Type | EnumWithParams | EnumWithParams |

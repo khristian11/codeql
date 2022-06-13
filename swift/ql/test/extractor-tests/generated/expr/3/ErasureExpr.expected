@@ -1,0 +1,4 @@
+| expressions.swift:18:11:18:19 | (Error) ... | not isUnknown | expressions.swift:18:11:18:19 | call to ... |
+| expressions.swift:18:11:18:19 | (TBD (ExistentialType)) ... | not isUnknown | expressions.swift:18:11:18:19 | call to ... |
+| expressions.swift:37:7:37:12 | (Any) ... | not isUnknown | expressions.swift:37:7:37:12 | ...[...] |
+| expressions.swift:37:7:37:12 | (TBD (ProtocolCompositionType)) ... | not isUnknown | expressions.swift:37:7:37:12 | ...[...] |

@@ -2,6 +2,7 @@
 
 import logging
 import pathlib
+import shutil
 import subprocess
 import typing
 
@@ -78,13 +79,19 @@ def get_classes_used_by(cls: ql.Class):
 
 def is_generated(file):
     with open(file) as contents:
-        return next(contents).startswith("// generated")
+        for line in contents:
+            return line.startswith("// generated")
+        return False
 
 
 def format(codeql, files):
     format_cmd = [codeql, "query", "format", "--in-place", "--"]
-    format_cmd.extend(str(f) for f in files)
-    res = subprocess.run(format_cmd, check=True, stderr=subprocess.PIPE, text=True)
+    format_cmd.extend(str(f) for f in files if f.suffix in (".ql", ".qll"))
+    res = subprocess.run(format_cmd, stderr=subprocess.PIPE, text=True)
+    if res.returncode:
+        for line in res.stderr.splitlines():
+            log.error(line.strip())
+        raise ValueError("QL format failed")
     for line in res.stderr.splitlines():
         log.debug(line.strip())
 
@@ -107,6 +114,7 @@ def generate(opts, renderer):
     existing = {q for q in out.rglob("*.qll")}
     existing |= {q for q in stub_out.rglob("*.qll") if is_generated(q)}
     existing |= {q for q in test_out.rglob("*.ql")}
+    existing |= {q for q in test_out.rglob("*.swift") if is_generated(q)}
 
     data = schema.load(input)
 
@@ -134,17 +142,33 @@ def generate(opts, renderer):
 
     renderer.render(ql.GetParentImplementation(classes), out / 'GetImmediateParent.qll')
 
+    test_dispatch = {}
     for c in classes:
-        if not c.final:
-            continue
-        test_query = test_out / c.path.with_suffix(".ql")
-        properties = {id(p): p for p in _get_all_properties(c, lookup) if p.is_single or p.is_predicate}
-        renderer.render(ql.ClassTester(cls=c, properties=list(properties.values())), test_query)
+        if c.final:
+            test_dispatch.setdefault(c.dir, []).append(c)
+    batch_size = 30
+    for dir, classes in test_dispatch.items():
+        counter = 0
+        for c in classes:
+            test_query = test_out / c.dir / str(counter // batch_size) / f"{c.name}.ql"
+            properties = {id(p): p for p in _get_all_properties(c, lookup) if p.is_single or p.is_predicate}
+            renderer.render(ql.ClassTester(cls=c, properties=list(properties.values())), test_query)
+            counter += 1
 
-        for p in _get_all_properties(c, lookup):
-            if not (p.is_single or p.is_predicate):
-                test_query = test_out / c.path.with_name(f"{c.name}_{p.getter}.ql")
-                renderer.render(ql.PropertyTester(cls=c, property=p), test_query)
+            for p in _get_all_properties(c, lookup):
+                if not (p.is_single or p.is_predicate):
+                    test_query = test_out / c.dir / str(counter // batch_size) / f"{c.name}_{p.getter}.ql"
+                    renderer.render(ql.PropertyTester(cls=c, property=p), test_query)
+                    counter += 1
+
+        for src in test_out.rglob("*.swift"):
+            code = None
+            for subdir in src.parent.iterdir():
+                if subdir.is_dir() and subdir.name.isdigit():
+                    if code is None:
+                        with open(src) as source:
+                            code = source.read()
+                    renderer.render(ql.SwiftSource(filename=src.name, code=code), subdir / src.name)
 
     renderer.cleanup(existing)
     if opts.ql_format:

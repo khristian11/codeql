@@ -1,8 +1,0 @@
-| expressions.swift:73:5:73:5 | .xx | @lvalue Int |
-| expressions.swift:84:5:84:13 | .xx | Int |
-| expressions.swift:131:3:131:6 | .settableField | @lvalue Int |
-| expressions.swift:132:11:132:14 | .settableField | @lvalue Int |
-| expressions.swift:133:11:133:14 | .readOnlyField1 | Int |
-| expressions.swift:134:11:134:14 | .readOnlyField2 | Int |
-| expressions.swift:135:3:135:6 | .normalField | @lvalue Int |
-| expressions.swift:136:11:136:14 | .normalField | @lvalue Int |

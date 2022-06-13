@@ -1,0 +1,26 @@
+| expressions.swift:9:11:9:10 | call to ... | 0 | : hello  |
+| expressions.swift:9:18:9:20 | call to ... | 0 | : a |
+| expressions.swift:9:21:9:21 | call to ... | 0 | :  |
+| expressions.swift:22:6:22:16 | call to failure | 0 | : 11 |
+| expressions.swift:23:6:23:16 | call to failure | 0 | : 11 |
+| expressions.swift:37:1:37:13 | call to print | 0 | : [...] |
+| expressions.swift:37:1:37:13 | call to print | 1 | separator: default separator |
+| expressions.swift:37:1:37:13 | call to print | 2 | terminator: default terminator |
+| expressions.swift:40:3:40:15 | call to ... | 0 | : 5 |
+| expressions.swift:40:3:40:15 | call to ... | 1 | : 7 |
+| expressions.swift:43:1:45:1 | call to closured | 0 | closure: { ... } |
+| expressions.swift:46:1:48:1 | call to closured | 0 | closure: { ... } |
+| expressions.swift:49:1:49:27 | call to closured | 0 | closure: { ... } |
+| expressions.swift:50:1:50:20 | call to closured | 0 | closure: { ... } |
+| expressions.swift:61:1:61:34 | call to unsafeFunction | 0 | pointer: &... |
+| expressions.swift:62:1:62:63 | call to withUnsafePointer | 0 | to: myNumber |
+| expressions.swift:62:1:62:63 | call to withUnsafePointer | 1 | : { ... } |
+| expressions.swift:62:35:62:61 | call to unsafeFunction | 0 | pointer: $0 |
+| expressions.swift:79:7:79:7 | call to _unimplementedInitializer | 0 | : expressions.Derived |
+| expressions.swift:79:7:79:7 | call to _unimplementedInitializer | 1 | : #... |
+| expressions.swift:79:7:79:7 | call to _unimplementedInitializer | 2 | : #... |
+| expressions.swift:79:7:79:7 | call to _unimplementedInitializer | 3 | : #... |
+| expressions.swift:79:7:79:7 | call to _unimplementedInitializer | 4 | : #... |
+| expressions.swift:81:5:81:21 | call to ... | 0 | x: 22 |
+| expressions.swift:94:14:94:44 | call to ... | 0 | : call to ... |
+| expressions.swift:95:1:95:35 | call to ... | 0 | : opaque |

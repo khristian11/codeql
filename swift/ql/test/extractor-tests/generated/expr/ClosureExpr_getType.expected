@@ -1,5 +1,0 @@
-| expressions.swift:41:10:43:1 | { ... } | (Int, Int) -> Int |
-| expressions.swift:44:10:46:1 | { ... } | (Int, Int) -> Int |
-| expressions.swift:47:10:47:27 | { ... } | (Int, Int) -> Int |
-| expressions.swift:48:10:48:20 | { ... } | (Int, Int) -> Int |
-| expressions.swift:60:33:60:63 | { ... } | (UnsafePointer<Int>) -> () |

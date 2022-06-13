@@ -1,2 +1,0 @@
-| statements.swift:19:3:23:3 | do { ... } catch { ... } | not isUnknown | statements.swift:19:6:21:3 | { ... } |
-| statements.swift:25:3:31:3 | do { ... } catch { ... } | not isUnknown | statements.swift:25:6:27:3 | { ... } |

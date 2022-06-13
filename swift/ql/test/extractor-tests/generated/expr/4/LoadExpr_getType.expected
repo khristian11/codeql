@@ -1,0 +1,6 @@
+| expressions.swift:62:23:62:23 | (Int) ... | Int |
+| expressions.swift:134:11:134:14 | (Int) ... | Int |
+| expressions.swift:135:11:135:11 | (HasProperty) ... | HasProperty |
+| expressions.swift:136:11:136:11 | (HasProperty) ... | HasProperty |
+| expressions.swift:138:11:138:14 | (Int) ... | Int |
+| expressions.swift:140:10:140:10 | (HasProperty) ... | HasProperty |

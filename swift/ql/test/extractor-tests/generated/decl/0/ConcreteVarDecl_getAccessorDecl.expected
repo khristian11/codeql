@@ -1,0 +1,49 @@
+| declarations.swift:4:7:4:7 | x | 0 | declarations.swift:4:7:4:7 | get |
+| declarations.swift:4:7:4:7 | x | 1 | declarations.swift:4:7:4:7 | set |
+| declarations.swift:4:7:4:7 | x | 2 | declarations.swift:4:7:4:7 | (unnamed function decl) |
+| declarations.swift:5:7:5:7 | next | 0 | declarations.swift:6:5:6:24 | get |
+| declarations.swift:5:7:5:7 | next | 1 | declarations.swift:7:5:7:38 | set |
+| declarations.swift:5:7:5:7 | next | 2 | declarations.swift:5:7:5:7 | (unnamed function decl) |
+| declarations.swift:11:17:11:17 | x | 0 | declarations.swift:11:17:11:17 | get |
+| declarations.swift:11:17:11:17 | x | 1 | declarations.swift:11:17:11:17 | set |
+| declarations.swift:11:17:11:17 | x | 2 | declarations.swift:11:17:11:17 | (unnamed function decl) |
+| declarations.swift:25:9:25:9 | mustBeSettable | 0 | declarations.swift:25:31:25:31 | get |
+| declarations.swift:25:9:25:9 | mustBeSettable | 1 | declarations.swift:25:35:25:35 | set |
+| declarations.swift:25:9:25:9 | mustBeSettable | 2 | declarations.swift:25:9:25:9 | (unnamed function decl) |
+| declarations.swift:26:9:26:9 | doesNotNeedToBeSettable | 0 | declarations.swift:26:40:26:40 | get |
+| declarations.swift:33:5:33:5 | a_property | 0 | declarations.swift:34:3:36:3 | get |
+| declarations.swift:33:5:33:5 | a_property | 1 | declarations.swift:37:3:37:18 | set |
+| declarations.swift:43:7:43:7 | field | 0 | declarations.swift:43:7:43:7 | get |
+| declarations.swift:43:7:43:7 | field | 1 | declarations.swift:43:7:43:7 | set |
+| declarations.swift:43:7:43:7 | field | 2 | declarations.swift:43:7:43:7 | (unnamed function decl) |
+| declarations.swift:71:7:71:7 | wrappedValue | 0 | declarations.swift:72:5:74:5 | get |
+| declarations.swift:79:20:79:20 | x | 0 | declarations.swift:79:20:79:20 | get |
+| declarations.swift:84:7:84:7 | settableField | 0 | declarations.swift:85:5:85:11 | set |
+| declarations.swift:84:7:84:7 | settableField | 1 | declarations.swift:86:5:88:5 | get |
+| declarations.swift:84:7:84:7 | settableField | 2 | declarations.swift:84:7:84:7 | (unnamed function decl) |
+| declarations.swift:93:7:93:7 | readOnlyField1 | 0 | declarations.swift:93:27:95:3 | get |
+| declarations.swift:98:7:98:7 | readOnlyField2 | 0 | declarations.swift:99:5:101:5 | get |
+| declarations.swift:104:7:104:7 | normalField | 0 | declarations.swift:104:7:104:7 | get |
+| declarations.swift:104:7:104:7 | normalField | 1 | declarations.swift:104:7:104:7 | set |
+| declarations.swift:104:7:104:7 | normalField | 2 | declarations.swift:104:7:104:7 | (unnamed function decl) |
+| declarations.swift:117:7:117:7 | hasWillSet1 | 0 | declarations.swift:118:5:118:25 | willSet |
+| declarations.swift:117:7:117:7 | hasWillSet1 | 1 | declarations.swift:117:7:117:7 | get |
+| declarations.swift:117:7:117:7 | hasWillSet1 | 2 | declarations.swift:117:7:117:7 | set |
+| declarations.swift:117:7:117:7 | hasWillSet1 | 3 | declarations.swift:117:7:117:7 | (unnamed function decl) |
+| declarations.swift:121:7:121:7 | hasWillSet2 | 0 | declarations.swift:122:5:122:15 | willSet |
+| declarations.swift:121:7:121:7 | hasWillSet2 | 1 | declarations.swift:121:7:121:7 | get |
+| declarations.swift:121:7:121:7 | hasWillSet2 | 2 | declarations.swift:121:7:121:7 | set |
+| declarations.swift:121:7:121:7 | hasWillSet2 | 3 | declarations.swift:121:7:121:7 | (unnamed function decl) |
+| declarations.swift:125:7:125:7 | hasDidSet1 | 0 | declarations.swift:126:5:126:24 | didSet |
+| declarations.swift:125:7:125:7 | hasDidSet1 | 1 | declarations.swift:125:7:125:7 | get |
+| declarations.swift:125:7:125:7 | hasDidSet1 | 2 | declarations.swift:125:7:125:7 | set |
+| declarations.swift:125:7:125:7 | hasDidSet1 | 3 | declarations.swift:125:7:125:7 | (unnamed function decl) |
+| declarations.swift:129:7:129:7 | hasDidSet2 | 0 | declarations.swift:130:5:130:14 | didSet |
+| declarations.swift:129:7:129:7 | hasDidSet2 | 1 | declarations.swift:129:7:129:7 | get |
+| declarations.swift:129:7:129:7 | hasDidSet2 | 2 | declarations.swift:129:7:129:7 | set |
+| declarations.swift:129:7:129:7 | hasDidSet2 | 3 | declarations.swift:129:7:129:7 | (unnamed function decl) |
+| declarations.swift:133:7:133:7 | hasBoth | 0 | declarations.swift:134:5:134:15 | willSet |
+| declarations.swift:133:7:133:7 | hasBoth | 1 | declarations.swift:136:5:136:14 | didSet |
+| declarations.swift:133:7:133:7 | hasBoth | 2 | declarations.swift:133:7:133:7 | get |
+| declarations.swift:133:7:133:7 | hasBoth | 3 | declarations.swift:133:7:133:7 | set |
+| declarations.swift:133:7:133:7 | hasBoth | 4 | declarations.swift:133:7:133:7 | (unnamed function decl) |

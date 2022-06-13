@@ -1,0 +1,13 @@
+| expressions.swift:17:11:17:11 | Int.Type | expressions.swift:17:11:17:11 | TBD (FixedTypeRepr) |
+| expressions.swift:18:11:18:11 | AnError.Type | expressions.swift:18:11:18:11 | TBD (SimpleIdentTypeRepr) |
+| expressions.swift:29:13:29:13 | Klass.Type | expressions.swift:29:13:29:13 | TBD (SimpleIdentTypeRepr) |
+| expressions.swift:44:14:44:14 | Int.Type | expressions.swift:44:14:44:14 | TBD (FixedTypeRepr) |
+| expressions.swift:47:14:47:14 | Int.Type | expressions.swift:47:14:47:14 | TBD (FixedTypeRepr) |
+| expressions.swift:49:22:49:22 | Int.Type | expressions.swift:49:22:49:22 | TBD (FixedTypeRepr) |
+| expressions.swift:50:15:50:15 | Int.Type | expressions.swift:50:15:50:15 | TBD (FixedTypeRepr) |
+| expressions.swift:66:10:66:10 | Int.Type | expressions.swift:66:10:66:10 | TBD (FixedTypeRepr) |
+| expressions.swift:85:15:85:15 | Derived.Type | expressions.swift:85:15:85:15 | TBD (SimpleIdentTypeRepr) |
+| expressions.swift:94:14:94:14 | Unmanaged<ToPtr>.Type | expressions.swift:94:14:94:14 | TBD (SimpleIdentTypeRepr) |
+| expressions.swift:94:37:94:37 | ToPtr.Type | expressions.swift:94:37:94:37 | TBD (SimpleIdentTypeRepr) |
+| expressions.swift:95:1:95:16 | Unmanaged<ToPtr>.Type | expressions.swift:95:1:95:16 | ...<...> |
+| expressions.swift:95:1:95:16 | Unmanaged<ToPtr>.Type | expressions.swift:95:1:95:16 | TBD (GenericIdentTypeRepr) |

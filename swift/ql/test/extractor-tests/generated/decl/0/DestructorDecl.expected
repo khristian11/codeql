@@ -1,0 +1,2 @@
+| declarations.swift:11:7:11:7 | deinit | not isUnknown | (Bar) -> () -> () | (unnamed function decl) |
+| declarations.swift:48:3:50:3 | deinit | not isUnknown | (Baz) -> () -> () | (unnamed function decl) |

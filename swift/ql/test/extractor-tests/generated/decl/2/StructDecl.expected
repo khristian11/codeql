@@ -1,0 +1,3 @@
+| declarations.swift:3:1:9:1 | Foo | not isUnknown | Foo.Type | Foo | Foo |
+| declarations.swift:70:18:76:1 | ZeroWrapper | not isUnknown | ZeroWrapper.Type | ZeroWrapper | ZeroWrapper |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | not isUnknown | HasPropertyAndObserver.Type | HasPropertyAndObserver | HasPropertyAndObserver |

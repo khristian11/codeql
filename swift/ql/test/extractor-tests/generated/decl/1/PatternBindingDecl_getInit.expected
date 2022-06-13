@@ -1,0 +1,3 @@
+| declarations.swift:4:3:4:11 | var ... = ... | 0 | declarations.swift:4:11:4:11 | 11 |
+| declarations.swift:11:13:11:30 | var ... = ... | 0 | declarations.swift:11:30:11:30 | 1.3 |
+| declarations.swift:32:1:32:18 | var ... = ... | 0 | declarations.swift:32:18:32:18 | 42 |

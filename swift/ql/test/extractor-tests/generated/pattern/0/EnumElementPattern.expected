@@ -1,0 +1,2 @@
+| patterns.swift:29:10:29:11 | .bar | not isUnknown | patterns.swift:23:14:23:14 | bar |
+| patterns.swift:30:14:30:23 | .baz(...) | not isUnknown | patterns.swift:23:19:23:34 | baz |

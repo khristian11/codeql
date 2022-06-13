@@ -1,0 +1,16 @@
+| patterns.swift:4:9:4:9 | an_int | not isUnknown | an_int |
+| patterns.swift:5:9:5:9 | a_string | not isUnknown | a_string |
+| patterns.swift:6:10:6:10 | x | not isUnknown | x |
+| patterns.swift:6:13:6:13 | y | not isUnknown | y |
+| patterns.swift:6:16:6:16 | z | not isUnknown | z |
+| patterns.swift:12:9:12:9 | point | not isUnknown | point |
+| patterns.swift:14:15:14:15 | xx | not isUnknown | xx |
+| patterns.swift:14:19:14:19 | yy | not isUnknown | yy |
+| patterns.swift:26:9:26:9 | v | not isUnknown | v |
+| patterns.swift:30:19:30:19 | i | not isUnknown | i |
+| patterns.swift:30:22:30:22 | s | not isUnknown | s |
+| patterns.swift:33:9:33:9 | w | not isUnknown | w |
+| patterns.swift:36:14:36:14 | n | not isUnknown | n |
+| patterns.swift:40:9:40:9 | a | not isUnknown | a |
+| patterns.swift:44:14:44:14 | x | not isUnknown | x |
+| patterns.swift:48:9:48:9 | b | not isUnknown | b |

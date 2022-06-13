@@ -1,0 +1,4 @@
+| declarations.swift:4:7:4:7 | x | declarations.swift:4:11:4:11 | 11 |
+| declarations.swift:11:17:11:17 | x | declarations.swift:11:30:11:30 | 1.3 |
+| declarations.swift:32:5:32:5 | a_variable | declarations.swift:32:18:32:18 | 42 |
+| declarations.swift:79:20:79:20 | _x | declarations.swift:79:4:79:4 | call to ... |

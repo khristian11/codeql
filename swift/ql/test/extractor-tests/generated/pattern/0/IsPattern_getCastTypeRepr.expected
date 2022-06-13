@@ -1,0 +1,2 @@
+| patterns.swift:43:10:43:13 | ... is ... | patterns.swift:43:13:43:13 | TBD (SimpleIdentTypeRepr) |
+| patterns.swift:44:14:44:19 | ... is ... | patterns.swift:44:19:44:19 | TBD (SimpleIdentTypeRepr) |

@@ -1,0 +1,2 @@
+| expressions.swift:56:5:56:8 | #keyPath(...) | KeyPath<S, Int> |
+| expressions.swift:156:52:156:55 | #keyPath(...) | WritableKeyPath<B, Int> |

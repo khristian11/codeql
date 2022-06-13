@@ -1,0 +1,4 @@
+| expressions.swift:37:7:37:12 | ...[...] | not isUnknown | expressions.swift:37:7:37:7 | d | file://:0:0:0:0 | subscript ... | not hasDirectToStorageSemantics | not hasDirectToImplementationSemantics | hasOrdinarySemantics |
+| expressions.swift:90:1:90:6 | ...[...] | not isUnknown | expressions.swift:90:1:90:1 | d | file://:0:0:0:0 | subscript ... | not hasDirectToStorageSemantics | not hasDirectToImplementationSemantics | hasOrdinarySemantics |
+| expressions.swift:139:3:139:7 | ...[...] | not isUnknown | expressions.swift:139:3:139:3 | &... | expressions.swift:120:3:125:3 | subscript ... | not hasDirectToStorageSemantics | not hasDirectToImplementationSemantics | hasOrdinarySemantics |
+| expressions.swift:140:10:140:17 | ...[...] | not isUnknown | expressions.swift:140:10:140:10 | hp | expressions.swift:127:3:129:3 | subscript ... | not hasDirectToStorageSemantics | not hasDirectToImplementationSemantics | hasOrdinarySemantics |

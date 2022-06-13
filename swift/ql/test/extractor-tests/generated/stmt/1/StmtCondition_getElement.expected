@@ -1,0 +1,5 @@
+| statements.swift:5:8:5:13 | StmtCondition | 0 | statements.swift:5:8:5:13 | ... call to == ... |
+| statements.swift:12:17:12:24 | StmtCondition | 0 | statements.swift:12:17:12:24 | ... call to < ... |
+| statements.swift:41:9:41:14 | StmtCondition | 0 | statements.swift:41:9:41:14 | ... call to != ... |
+| statements.swift:67:4:67:19 | StmtCondition | 0 | statements.swift:67:4:67:19 | let ... = ...  |
+| statements.swift:69:4:69:20 | StmtCondition | 0 | statements.swift:69:4:69:20 | .some(...) = ...  |

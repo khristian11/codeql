@@ -1,0 +1,22 @@
+| expressions.swift:9:11:9:10 | call to ... | not isUnknown | expressions.swift:9:11:9:11 | call to appendLiteral |
+| expressions.swift:9:18:9:20 | call to ... | not isUnknown | expressions.swift:9:18:9:18 | call to appendInterpolation |
+| expressions.swift:9:21:9:21 | call to ... | not isUnknown | expressions.swift:9:21:9:21 | call to appendLiteral |
+| expressions.swift:22:6:22:16 | call to failure | not isUnknown | expressions.swift:22:6:22:6 | failure |
+| expressions.swift:23:6:23:16 | call to failure | not isUnknown | expressions.swift:23:6:23:6 | failure |
+| expressions.swift:29:13:29:19 | call to ... | not isUnknown | expressions.swift:29:13:29:13 | call to ... |
+| expressions.swift:37:1:37:13 | call to print | not isUnknown | expressions.swift:37:1:37:1 | print |
+| expressions.swift:40:3:40:15 | call to ... | not isUnknown | expressions.swift:40:3:40:3 | closure |
+| expressions.swift:43:1:45:1 | call to closured | not isUnknown | expressions.swift:43:1:43:1 | closured |
+| expressions.swift:46:1:48:1 | call to closured | not isUnknown | expressions.swift:46:1:46:1 | closured |
+| expressions.swift:49:1:49:27 | call to closured | not isUnknown | expressions.swift:49:1:49:1 | closured |
+| expressions.swift:50:1:50:20 | call to closured | not isUnknown | expressions.swift:50:1:50:1 | closured |
+| expressions.swift:61:1:61:34 | call to unsafeFunction | not isUnknown | expressions.swift:61:1:61:1 | unsafeFunction |
+| expressions.swift:62:1:62:63 | call to withUnsafePointer | not isUnknown | expressions.swift:62:1:62:1 | withUnsafePointer |
+| expressions.swift:62:35:62:61 | call to unsafeFunction | not isUnknown | expressions.swift:62:35:62:35 | unsafeFunction |
+| expressions.swift:79:7:79:7 | call to _unimplementedInitializer | not isUnknown | expressions.swift:79:7:79:7 | _unimplementedInitializer |
+| expressions.swift:81:5:81:21 | call to ... | not isUnknown | expressions.swift:81:5:81:11 | call to ... |
+| expressions.swift:85:15:85:23 | call to ... | not isUnknown | expressions.swift:85:15:85:15 | call to ... |
+| expressions.swift:94:14:94:44 | call to ... | not isUnknown | expressions.swift:94:14:94:24 | call to passRetained |
+| expressions.swift:94:14:94:55 | call to ... | not isUnknown | expressions.swift:94:14:94:46 | call to toOpaque |
+| expressions.swift:94:37:94:43 | call to ... | not isUnknown | expressions.swift:94:37:94:37 | call to ... |
+| expressions.swift:95:1:95:35 | call to ... | not isUnknown | expressions.swift:95:1:95:18 | call to fromOpaque |

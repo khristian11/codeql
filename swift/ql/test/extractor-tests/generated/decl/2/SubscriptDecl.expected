@@ -1,0 +1,2 @@
+| declarations.swift:106:3:111:3 | subscript ... | not isUnknown | (Int) -> Int | Int |
+| declarations.swift:113:3:115:3 | subscript ... | not isUnknown | (Int, Int) -> Int | Int |

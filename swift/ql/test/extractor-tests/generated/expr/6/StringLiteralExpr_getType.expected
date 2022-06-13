@@ -1,0 +1,8 @@
+| expressions.swift:8:9:8:9 | hello world | String |
+| expressions.swift:9:10:9:10 | hello  | String |
+| expressions.swift:9:21:9:21 |  | String |
+| expressions.swift:31:10:31:10 | 1 | String |
+| expressions.swift:31:16:31:16 | 2 | String |
+| expressions.swift:37:9:37:9 | 1 | String |
+| expressions.swift:79:7:79:7 | expressions.Derived | StaticString |
+| expressions.swift:90:3:90:3 | a | String |

@@ -1,6 +1,0 @@
-| expressions.swift:60:23:60:23 | (Int) ... | not isUnknown | expressions.swift:60:23:60:23 | myNumber |
-| expressions.swift:132:11:132:14 | (Int) ... | not isUnknown | expressions.swift:132:11:132:14 | .settableField |
-| expressions.swift:133:11:133:11 | (HasProperty) ... | not isUnknown | expressions.swift:133:11:133:11 | hp |
-| expressions.swift:134:11:134:11 | (HasProperty) ... | not isUnknown | expressions.swift:134:11:134:11 | hp |
-| expressions.swift:136:11:136:14 | (Int) ... | not isUnknown | expressions.swift:136:11:136:14 | .normalField |
-| expressions.swift:138:10:138:10 | (HasProperty) ... | not isUnknown | expressions.swift:138:10:138:10 | hp |

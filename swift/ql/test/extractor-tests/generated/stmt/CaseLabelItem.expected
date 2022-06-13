@@ -1,7 +1,0 @@
-| statements.swift:21:11:21:11 | let ... | not isUnknown | statements.swift:21:11:21:11 | let ... |
-| statements.swift:27:11:27:11 | ... is ... | not isUnknown | statements.swift:27:11:27:11 | ... is ... |
-| statements.swift:29:11:29:11 | let ... | not isUnknown | statements.swift:29:11:29:11 | let ... |
-| statements.swift:54:9:54:9 | 1 | not isUnknown | statements.swift:54:9:54:9 | 1 |
-| statements.swift:57:9:57:9 | 5 | not isUnknown | statements.swift:57:9:57:9 | 5 |
-| statements.swift:57:12:57:12 | 10 | not isUnknown | statements.swift:57:12:57:12 | 10 |
-| statements.swift:60:4:60:4 | _ | not isUnknown | statements.swift:60:4:60:4 | _ |

@@ -1,0 +1,5 @@
+| patterns.swift:7:9:7:9 | _ | not isUnknown |
+| patterns.swift:8:10:8:10 | _ | not isUnknown |
+| patterns.swift:19:10:19:10 | _ | not isUnknown |
+| patterns.swift:37:10:37:10 | _ | not isUnknown |
+| patterns.swift:45:10:45:10 | _ | not isUnknown |

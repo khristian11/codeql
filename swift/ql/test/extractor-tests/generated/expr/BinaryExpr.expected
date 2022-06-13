@@ -1,6 +1,0 @@
-| expressions.swift:15:9:15:14 | ... call to != ... | not isUnknown | expressions.swift:15:11:15:11 | call to != |
-| expressions.swift:42:12:42:16 | ... call to + ... | not isUnknown | expressions.swift:42:14:42:14 | call to + |
-| expressions.swift:45:12:45:16 | ... call to + ... | not isUnknown | expressions.swift:45:14:45:14 | call to + |
-| expressions.swift:47:19:47:24 | ... call to + ... | not isUnknown | expressions.swift:47:22:47:22 | call to + |
-| expressions.swift:48:12:48:17 | ... call to + ... | not isUnknown | expressions.swift:48:15:48:15 | call to + |
-| expressions.swift:64:8:64:12 | ... call to < ... | not isUnknown | expressions.swift:64:10:64:10 | call to < |

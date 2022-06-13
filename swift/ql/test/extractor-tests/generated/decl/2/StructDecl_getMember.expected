@@ -1,0 +1,30 @@
+| declarations.swift:3:1:9:1 | Foo | 0 | declarations.swift:4:3:4:11 | var ... = ... |
+| declarations.swift:3:1:9:1 | Foo | 1 | declarations.swift:4:7:4:7 | x |
+| declarations.swift:3:1:9:1 | Foo | 2 | declarations.swift:5:3:8:3 | var ... = ... |
+| declarations.swift:3:1:9:1 | Foo | 3 | declarations.swift:5:7:5:7 | next |
+| declarations.swift:3:1:9:1 | Foo | 4 | declarations.swift:3:8:3:8 | init |
+| declarations.swift:3:1:9:1 | Foo | 5 | declarations.swift:3:8:3:8 | init |
+| declarations.swift:70:18:76:1 | ZeroWrapper | 0 | declarations.swift:71:3:75:3 | var ... = ... |
+| declarations.swift:70:18:76:1 | ZeroWrapper | 1 | declarations.swift:71:7:71:7 | wrappedValue |
+| declarations.swift:70:18:76:1 | ZeroWrapper | 2 | declarations.swift:70:25:70:25 | init |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 0 | declarations.swift:84:3:89:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 1 | declarations.swift:84:7:84:7 | settableField |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 2 | declarations.swift:93:3:95:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 3 | declarations.swift:93:7:93:7 | readOnlyField1 |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 4 | declarations.swift:98:3:102:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 5 | declarations.swift:98:7:98:7 | readOnlyField2 |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 6 | declarations.swift:104:3:104:21 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 7 | declarations.swift:104:7:104:7 | normalField |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 8 | declarations.swift:106:3:111:3 | subscript ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 9 | declarations.swift:113:3:115:3 | subscript ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 10 | declarations.swift:117:3:119:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 11 | declarations.swift:117:7:117:7 | hasWillSet1 |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 12 | declarations.swift:121:3:123:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 13 | declarations.swift:121:7:121:7 | hasWillSet2 |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 14 | declarations.swift:125:3:127:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 15 | declarations.swift:125:7:125:7 | hasDidSet1 |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 16 | declarations.swift:129:3:131:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 17 | declarations.swift:129:7:129:7 | hasDidSet2 |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 18 | declarations.swift:133:3:137:3 | var ... = ... |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 19 | declarations.swift:133:7:133:7 | hasBoth |
+| declarations.swift:83:1:138:1 | HasPropertyAndObserver | 20 | declarations.swift:83:8:83:8 | init |

@@ -1,0 +1,4 @@
+| declarations.swift:27:5:27:22 | random | not isUnknown | <Self where Self : MyProtocol> (Self) -> () -> Double | random |
+| declarations.swift:30:1:30:37 | a_function | not isUnknown | (Int) -> () | a_function |
+| declarations.swift:52:3:54:3 | +- | not isUnknown | (Baz.Type) -> (Baz) -> Baz | +- |
+| declarations.swift:78:1:81:1 | foo | not isUnknown | () -> Int | foo |

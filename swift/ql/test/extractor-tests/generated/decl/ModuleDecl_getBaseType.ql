@@ -1,6 +1,0 @@
-import codeql.swift.elements
-import TestUtils
-
-from ModuleDecl x, int index
-where toBeTested(x)
-select x, index, x.getBaseType(index)

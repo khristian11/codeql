@@ -1,6 +1,0 @@
-import codeql.swift.elements
-import TestUtils
-
-from ConcreteVarDecl x
-where toBeTested(x)
-select x, x.getParentInitializer()

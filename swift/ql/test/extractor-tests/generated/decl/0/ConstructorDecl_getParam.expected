@@ -1,0 +1,7 @@
+| declarations.swift:3:8:3:8 | init | 0 | declarations.swift:3:8:3:8 | x |
+| declarations.swift:83:8:83:8 | init | 0 | declarations.swift:83:8:83:8 | normalField |
+| declarations.swift:83:8:83:8 | init | 1 | declarations.swift:83:8:83:8 | hasWillSet1 |
+| declarations.swift:83:8:83:8 | init | 2 | declarations.swift:83:8:83:8 | hasWillSet2 |
+| declarations.swift:83:8:83:8 | init | 3 | declarations.swift:83:8:83:8 | hasDidSet1 |
+| declarations.swift:83:8:83:8 | init | 4 | declarations.swift:83:8:83:8 | hasDidSet2 |
+| declarations.swift:83:8:83:8 | init | 5 | declarations.swift:83:8:83:8 | hasBoth |

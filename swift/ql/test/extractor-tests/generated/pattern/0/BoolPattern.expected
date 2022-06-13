@@ -1,0 +1,2 @@
+| patterns.swift:51:10:51:10 | true | not isUnknown | true |
+| patterns.swift:52:10:52:10 | false | not isUnknown | false |

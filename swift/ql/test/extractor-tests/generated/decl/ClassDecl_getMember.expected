@@ -1,9 +1,0 @@
-| declarations.swift:9:1:9:34 | Bar | 0 | declarations.swift:9:13:9:30 | var ... = ... |
-| declarations.swift:9:1:9:34 | Bar | 1 | declarations.swift:9:17:9:17 | x |
-| declarations.swift:9:1:9:34 | Bar | 2 | declarations.swift:9:7:9:7 | deinit |
-| declarations.swift:9:1:9:34 | Bar | 3 | declarations.swift:9:7:9:7 | init |
-| declarations.swift:40:1:53:1 | Baz | 0 | declarations.swift:41:3:41:14 | var ... = ... |
-| declarations.swift:40:1:53:1 | Baz | 1 | declarations.swift:41:7:41:7 | field |
-| declarations.swift:40:1:53:1 | Baz | 2 | declarations.swift:42:3:44:3 | init |
-| declarations.swift:40:1:53:1 | Baz | 3 | declarations.swift:46:3:48:3 | deinit |
-| declarations.swift:40:1:53:1 | Baz | 4 | declarations.swift:50:3:52:3 | +- |

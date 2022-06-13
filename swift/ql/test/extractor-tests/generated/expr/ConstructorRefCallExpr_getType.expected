@@ -1,3 +1,0 @@
-| expressions.swift:27:13:27:13 | call to ... | () -> Klass |
-| expressions.swift:83:15:83:15 | call to ... | () -> Derived |
-| expressions.swift:92:37:92:37 | call to ... | () -> ToPtr |

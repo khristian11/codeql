@@ -1,7 +1,0 @@
-| patterns.swift:4:9:4:17 | (...) | 0 | patterns.swift:4:10:4:10 | x |
-| patterns.swift:4:9:4:17 | (...) | 1 | patterns.swift:4:13:4:13 | y |
-| patterns.swift:4:9:4:17 | (...) | 2 | patterns.swift:4:16:4:16 | z |
-| patterns.swift:12:14:12:21 | (...) | 0 | patterns.swift:12:15:12:15 | xx |
-| patterns.swift:12:14:12:21 | (...) | 1 | patterns.swift:12:19:12:19 | yy |
-| patterns.swift:28:18:28:23 | (...) | 0 | patterns.swift:28:19:28:19 | i |
-| patterns.swift:28:18:28:23 | (...) | 1 | patterns.swift:28:22:28:22 | s |

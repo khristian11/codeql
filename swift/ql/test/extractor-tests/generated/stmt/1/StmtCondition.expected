@@ -1,0 +1,5 @@
+| statements.swift:5:8:5:13 | StmtCondition | not isUnknown |
+| statements.swift:12:17:12:24 | StmtCondition | not isUnknown |
+| statements.swift:41:9:41:14 | StmtCondition | not isUnknown |
+| statements.swift:67:4:67:19 | StmtCondition | not isUnknown |
+| statements.swift:69:4:69:20 | StmtCondition | not isUnknown |

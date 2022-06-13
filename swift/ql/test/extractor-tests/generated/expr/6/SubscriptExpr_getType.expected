@@ -1,0 +1,4 @@
+| expressions.swift:37:7:37:12 | ...[...] | String? |
+| expressions.swift:90:1:90:6 | ...[...] | String? |
+| expressions.swift:139:3:139:7 | ...[...] | @lvalue Int |
+| expressions.swift:140:10:140:17 | ...[...] | Int |

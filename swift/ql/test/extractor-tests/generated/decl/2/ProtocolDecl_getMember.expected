@@ -1,0 +1,5 @@
+| declarations.swift:24:1:28:1 | MyProtocol | 0 | declarations.swift:25:5:25:39 | var ... = ... |
+| declarations.swift:24:1:28:1 | MyProtocol | 1 | declarations.swift:25:9:25:9 | mustBeSettable |
+| declarations.swift:24:1:28:1 | MyProtocol | 2 | declarations.swift:26:5:26:44 | var ... = ... |
+| declarations.swift:24:1:28:1 | MyProtocol | 3 | declarations.swift:26:9:26:9 | doesNotNeedToBeSettable |
+| declarations.swift:24:1:28:1 | MyProtocol | 4 | declarations.swift:27:5:27:22 | random |

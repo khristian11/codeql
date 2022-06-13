@@ -1,4 +1,0 @@
-| expressions.swift:152:26:152:47 | \\...[...] | not isUnknown | expressions.swift:152:26:152:26 | a | expressions.swift:152:37:152:37 | keyPathInt |
-| expressions.swift:153:24:153:43 | \\...[...] | not isUnknown | expressions.swift:153:24:153:24 | a | expressions.swift:153:35:153:35 | keyPathB |
-| expressions.swift:154:22:154:41 | \\...[...] | not isUnknown | expressions.swift:154:22:154:22 | a | expressions.swift:154:33:154:33 | keyPathB |
-| expressions.swift:154:22:154:56 | \\...[...] | not isUnknown | expressions.swift:154:22:154:41 | \\...[...] | expressions.swift:154:52:154:55 | #keyPath(...) |

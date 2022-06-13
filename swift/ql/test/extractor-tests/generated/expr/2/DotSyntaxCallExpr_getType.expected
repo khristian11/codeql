@@ -1,0 +1,14 @@
+| expressions.swift:9:11:9:11 | call to appendLiteral | (String) -> () |
+| expressions.swift:9:18:9:18 | call to appendInterpolation | (Int) -> () |
+| expressions.swift:9:21:9:21 | call to appendLiteral | (String) -> () |
+| expressions.swift:17:11:17:11 | call to != | (Int, Int) -> Bool |
+| expressions.swift:18:11:18:19 | call to ... | AnError |
+| expressions.swift:44:14:44:14 | call to + | (Int, Int) -> Int |
+| expressions.swift:47:14:47:14 | call to + | (Int, Int) -> Int |
+| expressions.swift:49:22:49:22 | call to + | (Int, Int) -> Int |
+| expressions.swift:50:15:50:15 | call to + | (Int, Int) -> Int |
+| expressions.swift:66:10:66:10 | call to < | (Int, Int) -> Bool |
+| expressions.swift:81:5:81:11 | call to ... | (Int) -> Base |
+| expressions.swift:94:14:94:24 | call to passRetained | (ToPtr) -> Unmanaged<ToPtr> |
+| expressions.swift:94:14:94:46 | call to toOpaque | () -> UnsafeMutableRawPointer |
+| expressions.swift:95:1:95:18 | call to fromOpaque | (UnsafeRawPointer) -> Unmanaged<ToPtr> |

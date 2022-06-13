@@ -1,4 +1,0 @@
-| patterns.swift:3:9:3:19 | ... as ... | not isUnknown | patterns.swift:3:9:3:9 | a_string |
-| patterns.swift:24:9:24:12 | ... as ... | not isUnknown | patterns.swift:24:9:24:9 | v |
-| patterns.swift:31:9:31:15 | ... as ... | not isUnknown | patterns.swift:31:9:31:9 | w |
-| patterns.swift:38:9:38:12 | ... as ... | not isUnknown | patterns.swift:38:9:38:9 | a |

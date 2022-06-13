@@ -127,9 +127,16 @@ class ClassTester:
     properties: List[Property] = field(default_factory=list)
 
 
-
 @dataclass
 class PropertyTester(ClassTester):
     template: ClassVar = 'ql_test_property'
 
     property: Property = None
+
+
+@dataclass
+class SwiftSource:
+    template: ClassVar = 'ql_swift_source'
+
+    filename: str
+    code: str

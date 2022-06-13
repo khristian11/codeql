@@ -1,0 +1,15 @@
+| expressions.swift:9:11:9:11 | call to appendLiteral | not isUnknown | file://:0:0:0:0 | appendLiteral | expressions.swift:9:11:9:11 | &... |
+| expressions.swift:9:18:9:18 | call to appendInterpolation | not isUnknown | expressions.swift:9:18:9:18 | appendInterpolation | expressions.swift:9:18:9:18 | &... |
+| expressions.swift:9:21:9:21 | call to appendLiteral | not isUnknown | file://:0:0:0:0 | appendLiteral | expressions.swift:9:21:9:21 | &... |
+| expressions.swift:17:11:17:11 | call to != | not isUnknown | expressions.swift:17:11:17:11 | != | expressions.swift:17:11:17:11 | Int.Type |
+| expressions.swift:18:11:18:19 | call to ... | not isUnknown | expressions.swift:18:19:18:19 | failed | expressions.swift:18:11:18:11 | AnError.Type |
+| expressions.swift:44:14:44:14 | call to + | not isUnknown | expressions.swift:44:14:44:14 | + | expressions.swift:44:14:44:14 | Int.Type |
+| expressions.swift:47:14:47:14 | call to + | not isUnknown | expressions.swift:47:14:47:14 | + | expressions.swift:47:14:47:14 | Int.Type |
+| expressions.swift:49:22:49:22 | call to + | not isUnknown | expressions.swift:49:22:49:22 | + | expressions.swift:49:22:49:22 | Int.Type |
+| expressions.swift:50:15:50:15 | call to + | not isUnknown | expressions.swift:50:15:50:15 | + | expressions.swift:50:15:50:15 | Int.Type |
+| expressions.swift:66:10:66:10 | call to < | not isUnknown | expressions.swift:66:10:66:10 | < | expressions.swift:66:10:66:10 | Int.Type |
+| expressions.swift:81:5:81:11 | call to ... | not isUnknown | expressions.swift:81:11:81:11 | TBD (OtherConstructorDeclRefExpr) | expressions.swift:81:5:81:5 | super |
+| expressions.swift:81:5:81:11 | call to ... | not isUnknown | expressions.swift:81:11:81:11 | call to ... | expressions.swift:81:5:81:5 | super |
+| expressions.swift:94:14:94:24 | call to passRetained | not isUnknown | expressions.swift:94:24:94:24 | passRetained | expressions.swift:94:14:94:14 | Unmanaged<ToPtr>.Type |
+| expressions.swift:94:14:94:46 | call to toOpaque | not isUnknown | expressions.swift:94:46:94:46 | toOpaque | expressions.swift:94:14:94:44 | call to ... |
+| expressions.swift:95:1:95:18 | call to fromOpaque | not isUnknown | expressions.swift:95:18:95:18 | fromOpaque | expressions.swift:95:1:95:16 | Unmanaged<ToPtr>.Type |

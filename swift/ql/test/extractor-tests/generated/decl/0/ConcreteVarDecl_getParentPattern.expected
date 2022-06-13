@@ -1,0 +1,20 @@
+| declarations.swift:4:7:4:7 | x | declarations.swift:4:7:4:7 | x |
+| declarations.swift:5:7:5:7 | next | declarations.swift:5:7:5:14 | ... as ... |
+| declarations.swift:11:17:11:17 | x | declarations.swift:11:17:11:21 | ... as ... |
+| declarations.swift:25:9:25:9 | mustBeSettable | declarations.swift:25:9:25:25 | ... as ... |
+| declarations.swift:26:9:26:9 | doesNotNeedToBeSettable | declarations.swift:26:9:26:34 | ... as ... |
+| declarations.swift:32:5:32:5 | a_variable | declarations.swift:32:5:32:5 | a_variable |
+| declarations.swift:33:5:33:5 | a_property | declarations.swift:33:5:33:18 | ... as ... |
+| declarations.swift:43:7:43:7 | field | declarations.swift:43:7:43:14 | ... as ... |
+| declarations.swift:71:7:71:7 | wrappedValue | declarations.swift:71:7:71:21 | ... as ... |
+| declarations.swift:79:20:79:20 | _x | declarations.swift:79:20:79:20 | ... as ... |
+| declarations.swift:79:20:79:20 | x | declarations.swift:79:20:79:23 | ... as ... |
+| declarations.swift:84:7:84:7 | settableField | declarations.swift:84:7:84:22 | ... as ... |
+| declarations.swift:93:7:93:7 | readOnlyField1 | declarations.swift:93:7:93:23 | ... as ... |
+| declarations.swift:98:7:98:7 | readOnlyField2 | declarations.swift:98:7:98:23 | ... as ... |
+| declarations.swift:104:7:104:7 | normalField | declarations.swift:104:7:104:21 | ... as ... |
+| declarations.swift:117:7:117:7 | hasWillSet1 | declarations.swift:117:7:117:21 | ... as ... |
+| declarations.swift:121:7:121:7 | hasWillSet2 | declarations.swift:121:7:121:21 | ... as ... |
+| declarations.swift:125:7:125:7 | hasDidSet1 | declarations.swift:125:7:125:20 | ... as ... |
+| declarations.swift:129:7:129:7 | hasDidSet2 | declarations.swift:129:7:129:20 | ... as ... |
+| declarations.swift:133:7:133:7 | hasBoth | declarations.swift:133:7:133:17 | ... as ... |
