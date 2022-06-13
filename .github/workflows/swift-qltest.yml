@@ -26,11 +26,17 @@ jobs:
       fail-fast: false
       matrix:
         os : [ubuntu-20.04, macos-latest]
-        slice: [ "1/2", "2/2" ]
+        slice: [ "1/3", "2/3", "3/3" ]
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/fetch-codeql
-      - uses: ./swift/actions/create-extractor-pack
+      - name: Create extractor pack
+        uses: ./swift/actions/create-extractor-pack
+      - name: Mount CodeQL test cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ github.workspace }}/swift/ql/test/.cache
+          key: ${{ runner.os }}-swift-ql-test
       - name: Run QL tests
         run: |
           codeql test run --threads=0 --ram 5000 --slice ${{ matrix.slice }} --search-path "${{ github.workspace }}/swift/extractor-pack" --check-databases --check-unused-labels --check-repeated-labels --check-redefined-labels --check-use-before-definition ql/test
