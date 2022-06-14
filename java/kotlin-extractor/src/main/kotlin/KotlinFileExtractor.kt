@@ -681,11 +681,11 @@ open class KotlinFileExtractor(
         }
     }
 
-    fun extractFunction(f: IrFunction, parentId: Label<out DbReftype>, extractBody: Boolean, extractMethodAndParameterTypeAccesses: Boolean, typeSubstitution: TypeSubstitution?, classTypeArgsIncludingOuterClasses: List<IrTypeArgument>?, idOverride: Label<DbMethod>? = null) =
+    fun extractFunction(f: IrFunction, parentId: Label<out DbReftype>, extractBody: Boolean, extractMethodAndParameterTypeAccesses: Boolean, typeSubstitution: TypeSubstitution?, classTypeArgsIncludingOuterClasses: List<IrTypeArgument>?) =
         if (isFake(f))
             null
         else
-            forceExtractFunction(f, parentId, extractBody, extractMethodAndParameterTypeAccesses, typeSubstitution, classTypeArgsIncludingOuterClasses, idOverride, null)
+            forceExtractFunction(f, parentId, extractBody, extractMethodAndParameterTypeAccesses, typeSubstitution, classTypeArgsIncludingOuterClasses, null, null)
 
     fun forceExtractFunction(f: IrFunction, parentId: Label<out DbReftype>, extractBody: Boolean, extractMethodAndParameterTypeAccesses: Boolean, typeSubstitution: TypeSubstitution?, classTypeArgsIncludingOuterClasses: List<IrTypeArgument>?, idOverride: Label<DbMethod>?, locOverride: Label<DbLocation>?): Label<out DbCallable>  {
         with("function", f) {
@@ -2594,10 +2594,7 @@ open class KotlinFileExtractor(
                         tw.writeCallableEnclosingExpr(id, callable)
                         tw.writeStatementEnclosingExpr(id, exprParent.enclosingStmt)
 
-                        val vId = if (owner is IrValueParameter && owner.isExtensionReceiver())
-                            useValueParameter(owner, useFunction(owner.parent as IrFunction))
-                        else
-                            useValueDeclaration(owner)
+                        val vId = useValueDeclaration(owner)
                         if (vId != null) {
                             tw.writeVariableBinding(id, vId)
                         }
@@ -4057,17 +4054,14 @@ open class KotlinFileExtractor(
                     }
 
                     val typeOwner = e.typeOperandClassifier.owner
-                    val samMember = if (typeOwner !is IrClass) {
+                    if (typeOwner !is IrClass) {
                         logger.errorElement("Expected to find SAM conversion to IrClass. Found '${typeOwner.javaClass}' instead. Can't implement SAM interface.", e)
                         return
-                    } else {
-                        val samMember = typeOwner.declarations.filterIsInstance<IrFunction>().find { it is IrOverridableMember && it.modality == Modality.ABSTRACT }
-                        if (samMember == null) {
-                            logger.errorElement("Couldn't find SAM member in type '${typeOwner.kotlinFqName.asString()}'. Can't implement SAM interface.", e)
-                            return
-                        } else {
-                            samMember
-                        }
+                    }
+                    val samMember = typeOwner.declarations.filterIsInstance<IrFunction>().find { it is IrOverridableMember && it.modality == Modality.ABSTRACT }
+                    if (samMember == null) {
+                        logger.errorElement("Couldn't find SAM member in type '${typeOwner.kotlinFqName.asString()}'. Can't implement SAM interface.", e)
+                        return
                     }
 
                     val javaResult = TypeResult(tw.getFreshIdLabel<DbClass>(), "", "")
